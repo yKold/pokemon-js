@@ -60,6 +60,7 @@ class Sprite {
         this.position = position
         this.image = image
         this.frames = frames
+        this.width = this.image.width / this.frames.max
     }
     
     draw() {
